@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let userName = prompt("Who's there?", '');
+    if (userName === 'Admin') {
+        alert('Password?','');
+    } else if (userName === null) {
+        alert('Cancel');
+    } else {
+        alert("I don't know you");
+    }
+    let pass = prompt('Password?','');
+    if (pass === 'admin') {
+        alert('Chào mừng admin đã quay trở lại');
+    } else if (pass === null) {
+        alert('Cancel');
+    } else {
+        alert('Wrong passwprd');
+    }
+
+</script>
+</body>
+</html>
